@@ -7,20 +7,20 @@
     --fundo-texto: #001E40;
     --borda: #0075FF;
     --roboto: 'Roboto', sans-serif;
-    --roboto-mono: 'Roboto Mono',monospace;
+    --roboto-mono: 'Roboto Mono', monospace;
 }
 
-*{
+* {
     font-weight: 400;
 }
 
 body{
-    color:var(--branco);
+    color: var(--branco);
     background-color: var(--cor-de-fundo);
     font-family: var(--roboto);
 }
 
-.titulo-pricipal{
+.titulo-principal{
     font-family: var(--roboto-mono);
     font-size: 32px;
 }
@@ -29,7 +29,7 @@ body{
     font-size: 24px;
 }
 
-.conteudo-titulo{
+.conteudo-titulo {
     text-align: center;
     margin-top: 80px;
 }
@@ -52,5 +52,10 @@ body{
 
 #campo-senha:focus{
     outline: none;
-    
+}
+
+
+.conteudo{
+    max-width: 1200px;
+    margin: 0 auto;
 }
