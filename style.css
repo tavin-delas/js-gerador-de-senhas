@@ -86,12 +86,12 @@ body{
     margin: 0 auto;
 }
 
-.parametro-senha__botoes{
+.parametro-senha-botoes{
     display: flex;
     justify-content: center;
 }
 
-.parametro-semha__botao{
+.parametro-senha__botao{
     background-color: var(--fundo-texto);
     color: var(--branco);
     border: 2px solid var(--borda);
